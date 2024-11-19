@@ -6,6 +6,8 @@ abstract class Routes {
   Routes._();
   static const SPLASH = _Paths.SPLASH;
   static const HOME = _Paths.HOME;
+  static const SIGNUP = _Paths.SIGNUP;
+  static const LOGIN = _Paths.LOGIN;
   static const CREATE_QUIZ = _Paths.CREATE_QUIZ;
   static const CREATE_QUESTION_OPTION = _Paths.CREATE_QUESTION_OPTION;
   static const CREATE_QUESTION_ESSAY = _Paths.CREATE_QUESTION_ESSAY;
@@ -19,6 +21,8 @@ abstract class Routes {
 abstract class _Paths {
   _Paths._();
   static const SPLASH = '/splash';
+  static const SIGNUP ='/signup';
+  static const LOGIN ='login';
   static const HOME = '/home';
   static const CREATE_QUIZ = '/create-quiz';
   static const CREATE_QUESTION_OPTION = '/create-question-option';
